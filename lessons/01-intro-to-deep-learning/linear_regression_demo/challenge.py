@@ -58,6 +58,7 @@ def fit_linear_regression(x, y):
 
 
 def plot_with_line_of_best_fit(x, y, regression, has_header):
+    plt.style.use('ggplot')
     _, ax = plt.subplots()
     xlabel, ylabel = get_axes_labels(x, y, has_header)
     plot_xy_with_regression_line(ax, x, y, regression)
