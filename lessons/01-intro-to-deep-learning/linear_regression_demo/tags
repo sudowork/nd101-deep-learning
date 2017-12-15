@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AnchoredText	challenge.py	/^from matplotlib.offsetbox import AnchoredText$/;"	kind:namespace	line:6
+LinearRegression	challenge.py	/^from sklearn.linear_model import LinearRegression$/;"	kind:namespace	line:7
+annotate_regression_formula	challenge.py	/^def annotate_regression_formula(ax, xlabel, ylabel, regression):$/;"	kind:function	line:86
+argparse	challenge.py	/^import argparse$/;"	kind:namespace	line:1
+args	challenge.py	/^    args = parse_args()$/;"	kind:variable	line:112
+body_reg	demo.py	/^body_reg = linear_model.LinearRegression()$/;"	kind:variable	line:11
+challenge.py	challenge.py	1;"	kind:file	line:1
+dataframe	demo.py	/^dataframe = pd.read_fwf('brain_body.txt')$/;"	kind:variable	line:6
+demo.py	demo.py	1;"	kind:file	line:1
+filepath	challenge.py	/^    filepath = args.input_file$/;"	kind:variable	line:113
+fit_linear_regression	challenge.py	/^def fit_linear_regression(x, y):$/;"	kind:function	line:54
+format	challenge.py	/^    format = args.format$/;"	kind:variable	line:114
+get_axes_labels	challenge.py	/^def get_axes_labels(x, y, has_header):$/;"	kind:function	line:76
+has_header	challenge.py	/^    has_header = args.has_header$/;"	kind:variable	line:115
+label_plot	challenge.py	/^def label_plot(ax, xlabel, ylabel):$/;"	kind:function	line:102
+linear_model	demo.py	/^from sklearn import linear_model$/;"	kind:namespace	line:2
+matplotlib	challenge.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:4
+matplotlib	demo.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+os	challenge.py	/^import os$/;"	kind:namespace	line:2
+parse_args	challenge.py	/^def parse_args():$/;"	kind:function	line:10
+parse_has_header_arg	challenge.py	/^def parse_has_header_arg(parser):$/;"	kind:function	line:29
+pd	challenge.py	/^import pandas as pd$/;"	kind:namespace	line:5
+pd	demo.py	/^import pandas as pd$/;"	kind:namespace	line:1
+plot_with_line_of_best_fit	challenge.py	/^def plot_with_line_of_best_fit(x, y, regression, has_header):$/;"	kind:function	line:60
+plot_xy_with_regression_line	challenge.py	/^def plot_xy_with_regression_line(ax, x, y, regression):$/;"	kind:function	line:70
+plt	challenge.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:4
+plt	demo.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+read_xy_from_file	challenge.py	/^def read_xy_from_file(filepath, format, has_header):$/;"	kind:function	line:46
+regression	challenge.py	/^    regression = fit_linear_regression(x, y)$/;"	kind:variable	line:119
+x_values	demo.py	/^x_values = dataframe[['Brain']]$/;"	kind:variable	line:7
+y_values	demo.py	/^y_values = dataframe[['Body']]$/;"	kind:variable	line:8
